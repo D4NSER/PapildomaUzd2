@@ -140,7 +140,7 @@ void writeWordsToFile(const std::string &filename, const std::map<std::string, s
         - Writes the word, its count, and the line numbers to the file.
 - **File Closing**: `fr.close()` closes the output file.
 
-## Writing URL's To File
+## Writing URLs To File
 ```
 void writeURLsToFile(const std::string &filename, const std::map<std::string, std::pair<int, std::set<int>>> &url_map) {
     std::ofstream fa(filename);
